@@ -15,6 +15,7 @@ h1, h2{
 }
 
 
+
 /*header area*/
 .top-header{
 	background: #fff !important;
@@ -29,13 +30,13 @@ h1, h2{
 	margin:auto;
 }
 .top-header img.logo{
-	margin-bottom: 15px;
 	margin-top: 0;
 	transition:all .5s ease 0s;
   -webkit-transition:all .5s ease 0s;
   -moz-transition:all .5s ease 0s;
   -o-transition:all .5s ease 0s;
   -ms-transition:all .5s ease 0s;
+	max-height: 80px;
 }
 .navbar-default {
   background-color: transparent;
@@ -171,6 +172,10 @@ li a.active{
 	color: #42b3e5;
 	margin-top: 50px;
 }
+.about h3{
+	font-size: 3.3vw;
+	color: #42b3e5;
+	margin-top: 50px;}
 .about h4{
 	font-size: 24px;
 	color: #737373;
@@ -322,9 +327,11 @@ li a.active{
 }
 .person img{
 	width: 100%;
+	max-height: 275px;
 }
 .person-detail{
 	padding:10px;
+	max-height: 147px;
 	background: #3a9cc8;
 	position: relative;
 	transition: all .7s ease 0s;
@@ -477,7 +484,7 @@ li a.active{
 	padding: 0;
 	font-family: 'BenchNine', sans-serif;
 	font-weight: bold;
-	
+
 }
 .contact-form{
 	padding-right: 40px;
@@ -537,6 +544,7 @@ li a.active{
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
+	max-height: 500px;
 }
 
 .carousel-fade .carousel-inner .active {
